@@ -20,22 +20,22 @@ order by 1,2;
 
 --Looking at the country with highest infection rate compared to population
 select location, max(total_cases) as 'Total Cases', max(total_cases/population) as HighestInfectionCount from dbo.CovidDeaths 
- group by location 
- order by HighestInfectionCount desc;
+group by location 
+order by HighestInfectionCount desc;
 
 
  --Showing country have highest deaths count 
 select location, max(cast(total_deaths as int)) as TotalDeathCount from dbo.CovidDeaths
- where continent is not null
- group by location
- order by TotalDeathCount desc;
+where continent is not null
+group by location
+order by TotalDeathCount desc;
 
  --Break down by continent
   --Showing continents have highest deaths count 
 select location, max(cast(total_deaths as int)) as TotalDeathCount from dbo.CovidDeaths
- where continent is null
- group by location
- order by TotalDeathCount desc;
+where continent is null
+group by location
+order by TotalDeathCount desc;
 
  --Globle number
  --Globle deaths rate
