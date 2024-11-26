@@ -1,5 +1,13 @@
-Use [Profolio Project]
-select * from [Nashville Housing]
+-------------------------------------------------------------------
+--Project Overview
+In this project, we clean housing data in SQL Sever. The project 
+includes basic queries such as 'SELECT', 'ALTER', 'UPDATE', 'ORDER BY', 
+and 'Group BY'. 
+
+But also with #ADVANCE# query: 'SUBSTRING', 'PARSENAME' to spilled and 
+new column, 'case' to convert variable in batch, and 'ROW_NUMBER()' 
+to find and remove duplicate values.
+
 
 -------------------------------------------------------------------
 --Standardize Data Foramt
