@@ -1,4 +1,11 @@
---select * from dbo.CovidDeaths order by 1,2;
+## Covid data exploration project:
+ This project uses basic and advanced SQL queries to retrieve data from two tables.
+ Display the COVID cases, percentages, and deaths across different regions.
+
+## Skills used: Joins, CTEs, Temp Tables, Aggregate Functions, Creating Views, Converting Data Types
+
+-------------------------------------------------------------------------------------------------------------------------
+ --select * from dbo.CovidDeaths order by 1,2;
 --use [Profolio Project];
 
 --retrive cases & deaths data
