@@ -1,3 +1,9 @@
+-----------------------------------------------------------------------
+Cleaned a housing dataset with 56,000 records using basic and advanced 
+SQL queries and functions, including handling missing data, splitting 
+columns, reformatting values, and removing duplicate rows.
+	
+-----------------------------------------------------------------------
 Use [Profolio Project]
 select * from [Nashville Housing]
 
